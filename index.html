@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Phospor Icons CDN-->
+        <script src="https://unpkg.com/phosphor-icons"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Anime JS Animations CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- AOS Animation CDN -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/my.css">
+
+        <title>Responsive Ecommerce Website Sneakers</title>
+    </head>
+    <body>
+        <!-- AOS script for animation -->
+        <script>
+            AOS.init();
+        </script>
+        <!-- / -->
+        <button class="btn"><i class="ph-arrow-up"></i></button>
+        <!-- Hidden menu for mobiles -->
+        <div class="hmenu">
+            <ul>
+                <a href = "#"><li>Home</li></a>
+                <a href = "#"> <li>Shop</li></a>
+                <a href = "#"><li>About</li></a>
+                <a href = "#"><li>Contact</li></a>
+            </ul>
+            <i class="ph-x" id = "close"></i>
+        </div>
+        <!--/-->
+        <header>
+            <div class="head">
+                <div class="logo">
+                    <i class="ph-storefront"></i>&nbsp;&nbsp; <h3>ShoeStore</h3>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <a href = "#"><li>Home</li></a>
+                        <a href = "#"> <li>Shop</li></a>
+                        <a href = "#"><li>About</li></a>
+                        <a href = "#"><li>Contact</li></a>
+                    </ul>
+                </nav>
+                <i class="ph-list" id = "open"></i>
+            </div>
+        </header>
+        <div class="main">
+            <section class="sec-1">
+                <div class="box">
+                    <div class="lbox">
+                        <h4>New Here</h4>
+                        <h1>The Average Jonas<br>Shoe Is here</h1>
+                        <h4>Buy now at reasonable rates and the best prices</h4>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="rbox">
+                        <div class="img">
+                        </div>
+                        <img src="assets/img/imghome.png">
+                    </div>
+                </div>
+            </section>
+            <br><br>
+
+            <section class="sec-2" data-aos="fade-up">
+                <span>Check This</span>
+                <h1>Featured Products</h1>
+                <br>
+                <ul>
+                    <li>
+                        <div class="box">
+                            SALE
+                        </div>
+                        <img src="assets/img/featured1.png">
+                        <br>
+                        <span>Red Shoe</span>
+                        <h2>$40.25</h2>
+                        <br>
+                        <p>Buy Now</p>
+                    </li>
+                    <li>
+                        <div class="box">
+                            SALE
+                        </div>
+                        <img src="assets/img/featured3.png">
+                        <br>
+                        <span>Gray Shoe</span>
+                        <h2>$75.15</h2>
+                        <br>
+                        <p>Buy Now</p>
+                    </li>
+                    <li>
+                        <div class="box">
+                            SALE
+                        </div>
+                        <img src="assets/img/featured2.png">
+                        <br>
+                        <span>Black Shoe</span>
+                        <h2>$65.15</h2>
+                        <br>
+                        <p>Buy Now</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sec-3" data-aos="fade-in">
+                <div class="lbox">
+                    <div class="text">
+                        <h2>Buy This Now</h2>
+                        <span>Else you will regret it later on</span>
+                    </div>
+                    <div class="img">
+                        <img src="assets/img/collection1.png">
+                    </div>
+                </div>
+                <div class="rbox">
+                    <div class="text">
+                        <h2>Buy This Now</h2>
+                        <span>Else you will regret it later on</span>
+                    </div>
+                    <div class="img">
+                        <img src="assets/img/collection2.png">
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+            <section class="sec-4">
+                <span>New out here</span>
+                <h1>Women's collection is Out</h1>
+                <br><br>
+                <ul>
+                    <li data-aos="flip-left">
+                        <img src="assets/img/women1.png">
+                        <span>Colorful Shoe</span>
+                        <h2>$23.5</h2>
+                        <span>Buy Now</span>
+                    </li>
+                    <li data-aos="flip-left">
+                        <img src="assets/img/women2.png">
+                        <span>Colorful Shoe</span>
+                        <h2>$23.5</h2>
+                        <span>Buy Now</span>
+                    </li>
+                    <li data-aos="flip-left">
+                        <img src="assets/img/women3.png">
+                        <span>Colorful Shoe</span>
+                        <h2>$23.5</h2>
+                        <span>Buy Now</span>
+                    </li>
+                    <li  data-aos="flip-left">
+                        <img src="assets/img/women4.png">
+                        <span>Colorful Shoe</span>
+                        <h2>$23.5</h2>
+                        <span>Buy Now</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sec-5">
+                <div class="lbox">
+                    <h1>50% OFF</h1>
+                    <span>Only avaibale at our store</span>
+                    <button>Shop Now</button>
+                </div>
+                <div class="rbox">
+                    <img src="assets/img/offert.png">
+                </div>
+            </section>
+            <br>
+            <section class="sec-6" data-aos="fade-in">
+                <h2>Now Featuring</h2>
+                <span>With the best prices</span>
+                <div class="box">
+                    <div class="lbox">
+                        <img src="assets/img/new1.png">
+                        <h2>Brand Wale Shoes</h2>
+                        <p>Shop now! On shop</p>
+                        <span>$58.50</span>
+                    </div>
+                    <div class="rbox">
+                        <ul>
+                            <li>
+                                <img src="assets/img/new2.png">
+                                <div>
+                                    <h2>Colored Shoe</h2>
+                                    <p>$76.50</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/new3.png">
+                                <div>
+                                    <h2>Colored Shoe</h2>
+                                    <p>$76.50</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/new4.png">
+                                <div>
+                                    <h2>Colored Shoe</h2>
+                                    <p>$76.50</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/img/new5.png">
+                                <div>
+                                    <h2>Colored Shoe</h2>
+                                    <p>$76.50</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sec-7" data-aos="zoom-in">
+                <div class="left">
+                    <h2>Signup For Our news Letter Now</h2>
+                    <h4>To get all the enlighting offers!</h4>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <input type="text" placeholder="Enter Your Email">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <footer>
+               <div class="menu">
+                   <h2>ShoeShop</h2>
+                   <span>Dont miss out any offers on our Platform!</span>
+               </div>
+               <div class="ul">
+                   <ul>
+                       <h2>Our Company</h2>
+                       <li>About Us</li>
+                       <li>Contact Us</li>
+                       <li>Shop</li>
+                   </ul>
+               </div>
+               <div class="ul">
+                <ul>
+                    <h2>Our Company</h2>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Shop</li>
+                </ul>
+               </div>
+               <div class="rbox">
+                   <h2>Socials</h2>
+                   <br>
+                   <ul>
+                       <li><i class="ph-facebook-logo"></i></li>
+                       <li><i class="ph-linkedin-logo"></i></li>
+                       <li><i class="ph-instagram-logo"></i></li>
+                   </ul>
+               </div>
+            </footer>
+            <br><br>
+            <center><span>© 2021 Ronak Lala. All right reserved</span></center>
+        </div>
+        <!-- script for the page -->
+        <script>
+            //Scroll to top button
+            $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > 50) {
+                $('.btn').fadeIn(500);
+            } 
+            else {
+                $('.btn').fadeOut(500);
+            }
+            });
+            $(".btn").click(function() {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            });
+
+            // Animating Objects //
+            let span = anime({
+		    targets:'.sec-1 .box .lbox h4',
+		    translateY:["50px",0],
+		    duration:1000,
+		    opacity:[0,1],
+	        })
+            let h1 = anime({
+		    targets:'.sec-1 .box .lbox h1',
+		    translateY:["50px",0],
+		    duration:1000,
+		    opacity:[0,1],
+            })
+            let button = anime({
+                targets:'.sec-1 .box .lbox button',
+                translateX:["200px",0],
+                duration:1000,
+                delay:500,
+                opacity:[0,1],
+            })
+            let img = anime({
+                targets:'.sec-1 .box .rbox',
+                translateY:["50px",0],
+                duration:1000,
+                delay:1000,
+                opacity:[0,1],
+            })
+
+            //mobile hamburger menu open and close.
+            $("#close").on("click",function() {
+                $(".hmenu").css("right","-70vw");
+            });
+            $("#open").on("click",function() {
+                $(".hmenu").css("right","0px");
+            });
+        </script>
+    </body>
+</html>
