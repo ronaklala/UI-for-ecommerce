@@ -94,6 +94,32 @@ header #open:hover,
 #close:hover {
   cursor: pointer;
 }
+.button {
+  font-family: var(--font);
+  font-weight: 400;
+  background-color: var(--dark-color);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: 300ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.button:hover {
+  background-color: #424242;
+}
+.button i {
+  position: relative;
+  left: 0;
+  margin-left: 0.3rem;
+  transition: 300ms;
+}
+.button:hover i {
+  left: 5px;
+}
+
 .main .sec-1 {
   height: 370px;
   width: 100vw;
@@ -128,12 +154,6 @@ header #open:hover,
 .main .sec-1 .box .lbox button {
   height: 40px;
   width: 200px;
-  font-family: var(--font);
-  font-weight: 400;
-  background-color: var(--dark-color);
-  border: none;
-  color: #fff;
-  border-radius: 5px;
 }
 .main .sec-1 .box .rbox {
   justify-content: center;
@@ -333,12 +353,8 @@ header #open:hover,
   gap: 10px;
 }
 .main .sec-5 .lbox button {
-  background-color: var(--dark-color);
   height: 35px;
   width: 150px;
-  color: white;
-  border: none;
-  font-family: var(--font);
 }
 .main .sec-5 .rbox {
   height: 100%;
